@@ -18,6 +18,8 @@ printf("the factorial of %d is:", num_fact);
 int factorial(num_fact);
 int isprime(num_prime);
 int ispallindrom();
+printf("\n");
+printf("%d is the value of sum",vsum(4,5,2,9,20));
 
 //string
 
