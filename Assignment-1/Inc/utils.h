@@ -4,5 +4,6 @@
   int factorial(int);
   int isprime(int);
   int ispalindrome(int);
+  int vsum(int num,...);
   
 #endif
