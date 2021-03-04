@@ -1,5 +1,5 @@
-Build : Q1_copy_file.c
-	gcc Q1_copy_file.c
+Build : copy_file.c
+	gcc copy_file.c
 
 run : Build
 
