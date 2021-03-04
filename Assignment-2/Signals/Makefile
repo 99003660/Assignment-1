@@ -1,5 +1,5 @@
-Build : copy_file.c
-	gcc copy_file.c
+Build : count.c
+	gcc count.c
 
 run : Build
 
