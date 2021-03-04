@@ -1,0 +1,2 @@
+Hello
+Count the lines words and characters in the given text file
