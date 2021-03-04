@@ -1,0 +1,7 @@
+Build : Signal_Target.c
+	gcc Signal_Target.c
+
+run : Build
+
+clean :
+	rm -rf *.o *.out
