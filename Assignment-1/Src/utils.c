@@ -45,3 +45,18 @@ int ispalindrome(int num)
 		printf("%d is not a palindrome\n",num1);
 	return 0;
 }
+
+int vsum(int num,...)
+{
+    va_list valist;
+
+    int sum = 0, i;
+
+    va_start(valist, num);
+    for (i = 0; i < num; i++)
+        sum += va_arg(valist, int);
+
+    va_end(valist);
+  
+    return sum;
+}
