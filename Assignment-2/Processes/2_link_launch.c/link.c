@@ -22,7 +22,7 @@ int main()
     {
                                    
         execute = execl("/usr/bin/gcc","gcc","-c","sample.c",NULL); 
-	    execl("/bin/gcc","gcc","sample.o","-o",s,NULL); 
+	    //execl("/bin/gcc","gcc","sample.o","-o",s,NULL); 
 
         if(execute<0)
         {
