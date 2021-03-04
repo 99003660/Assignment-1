@@ -1,8 +1,8 @@
 PROJECT_NAME = ASSIGNMENT1
 
-SRC = src/mystring.c\
-src/myutils.c\
-src/bit_set_reset.c\
+SRC = src/String.c\
+src/bitmask.c\
+src/utils.c\
 test.c
 
 INC = -Iinc
