@@ -1,0 +1,7 @@
+Build : max_min.c
+	gcc max_min.c -lpthread
+
+run : Build
+
+clean :
+	rm -rf *.o *.out

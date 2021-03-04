@@ -1,0 +1,7 @@
+BUild :current_time.c
+	gcc current_time.c -lpthread
+
+run : Build
+
+clean :
+	rm -rf *.o *.out

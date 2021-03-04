@@ -1,0 +1,7 @@
+Build : array_sum.c
+	gcc array_sum.c -lpthread
+
+run : Build
+
+clean:
+	rm -rf *.o *.out
