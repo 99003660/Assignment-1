@@ -1,5 +1,5 @@
-BUild :stack_mutex.c
-	gcc stack_mutex.c -lpthread
+BUild :stack.c
+	gcc stack.c -lpthread
 
 run : Build
 
