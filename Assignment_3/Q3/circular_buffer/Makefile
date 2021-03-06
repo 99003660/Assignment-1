@@ -1,5 +1,5 @@
-Build : Q3_circular_buffer.c
-	gcc Q3_circular_buffer.c -lpthread
+Build : circularbuffer_mutex.c
+	gcc circularbuffer_mutex.c -lpthread
 
 run : Build
 
