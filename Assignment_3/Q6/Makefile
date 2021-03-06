@@ -1,10 +1,10 @@
-all : prog1 prog2 
+all : case1 case2 
 
-prog1 : server.c
-    gcc -o server server.c -lrt
+case1 : server_queue.c
+    gcc -o server server_queue.c -lrt
 
-prog2 : user2.c 
-    gcc -o client client.c -lrt
+case2 : client_queue.c 
+    gcc -o client client_queue.c -lrt
 
 run : all
 	./server.out ./client.out
