@@ -1,5 +1,5 @@
-Build : circular_buffer.c
-	gcc circular_buffer.c -lpthread
+Build : sem_circularbuffer.c
+	gcc sem_circularbuffer.c -lpthread
 
 run : Build
 
