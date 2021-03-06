@@ -1,5 +1,5 @@
-Build : Q3_stack.c
-	gcc Q3_stack.c -lpthread
+Build : stack_mutex.c
+	gcc stack_mutex.c -lpthread
 
 run : Build
 
