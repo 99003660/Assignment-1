@@ -1,5 +1,5 @@
-BUild :shared_memory.c
-	gcc shared_memory.c -lpthread
+BUild :shm.c
+	gcc shm.c -lpthread
 
 run : Build
 
