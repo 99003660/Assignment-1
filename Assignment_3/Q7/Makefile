@@ -1,10 +1,10 @@
-all : prog01 prog02 
+all : case1 case2 
 
-prog01 : user1.c
-    gcc -o user1 user1.c -lpthread
+case1 : user1_pipe.c
+    gcc -o user1 user1_pipe.c -lpthread
 
-prog02 : user2.c 
-    gcc -o user2 user2.c -lpthread
+case2 : user2_pipe.c 
+    gcc -o user2 user2_pipe.c -lpthread
 
 run : all
 	./user1.out ./user2.out
